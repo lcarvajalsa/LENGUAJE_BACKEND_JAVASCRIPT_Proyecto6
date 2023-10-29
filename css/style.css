@@ -1,0 +1,20 @@
+body{
+    background-color: blue;
+}
+.puntaje{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    background-color: antiquewhite;
+    width: 50px;
+    height: 45px;
+    cursor: pointer;    
+    -webkit-mask-image: url("/img/estrella.svg");
+    mask-image: url("/img/estrella.svg");
+}
+.item.selec {
+    background-color: brown;
+}
